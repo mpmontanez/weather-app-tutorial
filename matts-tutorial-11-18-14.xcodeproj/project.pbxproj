@@ -13,6 +13,10 @@
 		2977FDE61A1B95B200DE4731 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2977FDE51A1B95B200DE4731 /* Images.xcassets */; };
 		2977FDE91A1B95B200DE4731 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2977FDE71A1B95B200DE4731 /* LaunchScreen.xib */; };
 		2977FDF51A1B95B200DE4731 /* matts_tutorial_11_18_14Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2977FDF41A1B95B200DE4731 /* matts_tutorial_11_18_14Tests.swift */; };
+		2977FDFF1A1B98A500DE4731 /* SwiftHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2977FDFE1A1B98A500DE4731 /* SwiftHttp.swift */; };
+		2977FE011A1B9D2400DE4731 /* WeatherDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2977FE001A1B9D2400DE4731 /* WeatherDetailsViewController.swift */; };
+		2977FE091A1BA27C00DE4731 /* ocean-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2977FE081A1BA27C00DE4731 /* ocean-bg.png */; };
+		2977FE0B1A1BA37B00DE4731 /* trees-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2977FE0A1A1BA37B00DE4731 /* trees-bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		2977FDEE1A1B95B200DE4731 /* matts-tutorial-11-18-14Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "matts-tutorial-11-18-14Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2977FDF31A1B95B200DE4731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2977FDF41A1B95B200DE4731 /* matts_tutorial_11_18_14Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = matts_tutorial_11_18_14Tests.swift; sourceTree = "<group>"; };
+		2977FDFE1A1B98A500DE4731 /* SwiftHttp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftHttp.swift; sourceTree = "<group>"; };
+		2977FE001A1B9D2400DE4731 /* WeatherDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherDetailsViewController.swift; path = ../WeatherDetailsViewController.swift; sourceTree = "<group>"; };
+		2977FE081A1BA27C00DE4731 /* ocean-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ocean-bg.png"; sourceTree = "<group>"; };
+		2977FE0A1A1BA37B00DE4731 /* trees-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trees-bg.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +85,16 @@
 		2977FDDB1A1B95B200DE4731 /* matts-tutorial-11-18-14 */ = {
 			isa = PBXGroup;
 			children = (
+				2977FE0A1A1BA37B00DE4731 /* trees-bg.png */,
+				2977FE081A1BA27C00DE4731 /* ocean-bg.png */,
+				2977FE001A1B9D2400DE4731 /* WeatherDetailsViewController.swift */,
 				2977FDDE1A1B95B200DE4731 /* AppDelegate.swift */,
 				2977FDE01A1B95B200DE4731 /* ViewController.swift */,
 				2977FDE21A1B95B200DE4731 /* Main.storyboard */,
 				2977FDE51A1B95B200DE4731 /* Images.xcassets */,
 				2977FDE71A1B95B200DE4731 /* LaunchScreen.xib */,
 				2977FDDC1A1B95B200DE4731 /* Supporting Files */,
+				2977FDFE1A1B98A500DE4731 /* SwiftHttp.swift */,
 			);
 			path = "matts-tutorial-11-18-14";
 			sourceTree = "<group>";
@@ -194,7 +206,9 @@
 			files = (
 				2977FDE41A1B95B200DE4731 /* Main.storyboard in Resources */,
 				2977FDE91A1B95B200DE4731 /* LaunchScreen.xib in Resources */,
+				2977FE0B1A1BA37B00DE4731 /* trees-bg.png in Resources */,
 				2977FDE61A1B95B200DE4731 /* Images.xcassets in Resources */,
+				2977FE091A1BA27C00DE4731 /* ocean-bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +228,8 @@
 			files = (
 				2977FDE11A1B95B200DE4731 /* ViewController.swift in Sources */,
 				2977FDDF1A1B95B200DE4731 /* AppDelegate.swift in Sources */,
+				2977FE011A1B9D2400DE4731 /* WeatherDetailsViewController.swift in Sources */,
+				2977FDFF1A1B98A500DE4731 /* SwiftHttp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
